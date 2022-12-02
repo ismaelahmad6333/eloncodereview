@@ -6,6 +6,7 @@ import GetStarted from './components/getStarted/GetStarted'
 import Testimonial from './components/testimonial/Testimonial'
 import Pricing from './components/pricing/Pricing'
 import Footer from './components/footer/Footer'
+import Faq from './components/Faq/Faq'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <GetStarted />
       <Testimonial />
       <Pricing />
+      <Faq />
       <Footer />
     </>
   )

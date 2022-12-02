@@ -10,7 +10,8 @@ const Nav = () => {
           <li>Testimonials</li>
           <li>Pricing</li>
         </ul>
-        <span>Sign in</span>
+        <span className="signin">Sign in</span>
+        <button className="btn hidden">|||</button>
       </nav>
     </>
   )

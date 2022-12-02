@@ -144,6 +144,9 @@ nav {
   align-items: center;
   width: 100%;
 }
+nav .btn.hidden {
+  display: none;
+}
 nav h1 {
   white-space: nowrap;
   font-size: 2rem;
@@ -154,6 +157,7 @@ nav h1 span {
 nav ul {
   display: flex;
   gap: 1.6rem;
+  list-style: none;
 }
 /* Hero section */
 .hero {
@@ -511,5 +515,126 @@ nav ul {
 @media only screen and (max-width: 1024px) {
   .pricing .pricing-cards {
     flex-direction: column;
+  }
+}
+
+/* Faq section */
+
+.faq {
+  background-image: url(https://eloncodereview.com/_next/static/media/background-faqs.55d2e36a.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10rem;
+}
+.faq-heading h2 {
+  font-size: 2.5rem;
+}
+
+.faq-heading p {
+  font-size: 1.125rem;
+  width: 50%;
+}
+.faq-cards {
+  display: flex;
+  gap: 1.6rem;
+}
+.faq-cards .faq-card {
+  display: flex;
+  margin-top: 2.4rem;
+  gap: 0.7rem;
+  flex-direction: column;
+}
+.faq-cards .faq-card span {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+.faq-cards .faq-card p {
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .faq-cards {
+    flex-direction: column;
+  }
+  .faq-heading p {
+    width: 80%;
+  }
+}
+
+/* Footer Section */
+
+footer {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer h3 {
+  font-size: 1.6rem;
+  white-space: nowrap;
+}
+
+footer ul {
+  margin-left: 5rem;
+  display: flex;
+  gap: 1.6rem;
+  list-style: none;
+}
+
+div .copy {
+  display: flex;
+  justify-content: center;
+  color: var(--clr-grey-6);
+  font-weight: 300;
+  padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero h1 {
+    font-size: 3rem;
+  }
+  .services .right {
+    min-width: 15rem;
+
+    grid-template-columns: 1fr;
+  }
+
+  nav ul {
+    display: none;
+  }
+  nav .signin {
+    display: none;
+  }
+  nav .btn.hidden {
+    display: flex;
+    padding: 0.6rem;
+    rotate: 90deg;
+    background-color: rgba(37, 99, 235);
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  nav ul {
+    display: none;
+  }
+  nav .signin {
+    display: none;
+  }
+  nav .btn.hidden {
+    display: flex;
+    padding: 0.6rem;
+    rotate: 90deg;
+    background-color: rgba(37, 99, 235);
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
   }
 }
