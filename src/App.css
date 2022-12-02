@@ -164,6 +164,7 @@ nav ul {
 }
 .hero h1 {
   font-size: 4.5rem;
+  font-weight: 700;
 }
 .hero h1 span {
   white-space: nowrap;
@@ -173,6 +174,7 @@ nav ul {
   margin: 1rem;
   white-space: nowrap;
   color: rgb(37 99 235);
+  text-transform: lowercase;
 }
 .hero h1 span .reviews-svg {
   position: absolute;
@@ -219,4 +221,67 @@ nav ul {
 }
 .hero .cta .btn.video span {
   font-size: 0.9rem;
+}
+
+/* Servcies section */
+
+.services {
+  margin-top: 4rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 450px 1fr;
+  position: relative;
+  background-color: rgba(249, 250, 251, 0.8);
+  overflow: hidden;
+}
+
+.services .services-heading {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.services .right {
+  min-width: 40rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+.services .right .service {
+  min-width: 20rem;
+}
+.services .right .service .service-title {
+  font-size: 1.125rem;
+  margin-top: 1rem;
+}
+.services .right .service span {
+  font-size: 2rem;
+  color: #fff;
+  filter: grayscale(99);
+}
+.services .right .service .service-info {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.5px;
+}
+
+.services .left {
+  width: 100%;
+}
+
+.services .left svg {
+  position: absolute;
+  fill: #8b1b5f72;
+  left: -5%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .services {
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+  }
+  .services .left svg {
+    top: -30%;
+    left: 80%;
+    opacity: 0.4;
+  }
 }
