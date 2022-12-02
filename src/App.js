@@ -5,6 +5,7 @@ import Services from './components/services/Services'
 import GetStarted from './components/getStarted/GetStarted'
 import Testimonial from './components/testimonial/Testimonial'
 import Pricing from './components/pricing/Pricing'
+import Footer from './components/footer/Footer'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <GetStarted />
       <Testimonial />
       <Pricing />
+      <Footer />
     </>
   )
 }
