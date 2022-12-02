@@ -17,6 +17,18 @@ const Hero = () => {
         <br />
         by Elon Musk.
       </h1>
+      <p className="description">
+        Most code is reviewed in Github, Gitlab or somewhere online, but that is
+        too efficient. Why not <strong>print</strong> out your code and submit
+        the printout by<strong> fax</strong> for review <br /> by{' '}
+        <strong>Elon Musk</strong> personally!
+      </p>
+      <div className="cta">
+        <button className="btn trial">get 6 months free</button>
+        <button className="btn video">
+          <span>▶️</span> Watch video
+        </button>
+      </div>
     </section>
   )
 }

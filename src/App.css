@@ -160,6 +160,7 @@ nav ul {
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-direction: column;
 }
 .hero h1 {
   font-size: 4.5rem;
@@ -181,4 +182,41 @@ nav ul {
   max-width: 25rem;
   transform: translateY(120%);
   fill: rgba(37, 99, 235, 0.3);
+}
+
+.hero .description {
+  max-width: 40rem;
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+}
+.hero .description strong {
+  font-weight: 700;
+  color: var(--clr-grey-1);
+}
+
+.hero .cta .btn {
+  padding: 0.79rem;
+  cursor: pointer;
+  margin-left: 1rem;
+  font-size: 1rem;
+  border-radius: 1.5rem;
+  border: none;
+}
+.hero .cta .btn.trial {
+  background-color: var(--clr-grey-1);
+  color: var(--clr-grey-9);
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.hero .cta .btn.video {
+  box-shadow: 0px 0px 0px 1px var(--clr-grey-9);
+}
+.hero .cta .btn.video:hover {
+  box-shadow: 0px 0px 0px 1px var(--clr-grey-7);
+}
+.hero .cta .btn.trial:hover {
+  opacity: 0.9;
+}
+.hero .cta .btn.video span {
+  font-size: 0.9rem;
 }
