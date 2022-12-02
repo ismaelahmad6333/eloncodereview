@@ -212,6 +212,7 @@ nav ul {
 }
 .hero .cta .btn.video {
   box-shadow: 0px 0px 0px 1px var(--clr-grey-9);
+  background-color: transparent;
 }
 .hero .cta .btn.video:hover {
   box-shadow: 0px 0px 0px 1px var(--clr-grey-7);
@@ -252,11 +253,12 @@ nav ul {
 .services .right .service .service-title {
   font-size: 1.125rem;
   margin-top: 1rem;
+  color: rgba(37, 99, 235);
 }
 .services .right .service span {
   font-size: 2rem;
   color: #fff;
-  filter: grayscale(99);
+  /* filter: grayscale(99); */
 }
 .services .right .service .service-info {
   font-size: 1.125rem;
@@ -283,5 +285,95 @@ nav ul {
     top: -30%;
     left: 80%;
     opacity: 0.4;
+  }
+}
+
+/* Get started section */
+
+.get-started {
+  background-image: url(https://eloncodereview.com/_next/static/media/background-call-to-action.6a5a5672.jpg);
+  background-position: center;
+  background-size: contain;
+  min-height: 400px;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--clr-white);
+  margin-bottom: 4rem;
+}
+
+.get-started p {
+  color: var(--clr-white);
+}
+.get-started .btn {
+  padding: 0.79rem;
+  cursor: pointer;
+  margin-left: 1rem;
+  font-size: 1rem;
+  border-radius: 1.5rem;
+  border: none;
+}
+.get-started .btn.trial {
+  background-color: var(--clr-white);
+  color: var(--clr-grey-2);
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.get-started .btn.trial:hover {
+  opacity: 0.8;
+}
+
+/* Testimonial section */
+
+.testimonial {
+  display: grid;
+  place-items: center;
+}
+
+.testimonial .testimonial-heading {
+  max-width: 40rem;
+  text-align: center;
+  margin-bottom: 2.25rem;
+}
+
+.testimonial .cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+.testimonial .cards-container .card {
+  border: 1px solid var(--clr-grey-4);
+  padding: 1.6rem;
+  border: none;
+  background-color: rgb(255 255 255);
+  box-shadow: 0px 15px 20px 5px rgba(15, 23, 42, 0.1);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.testimonial .cards-container .card:nth-of-type(odd) {
+  transform: translateY(-6%);
+}
+.testimonial .cards-container .card .card-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonial .cards-container .card .card-info .user-info h4 {
+  font-weight: 500;
+}
+.testimonial .cards-container .card .card-info img {
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .testimonial .cards-container {
+    grid-template-columns: 1fr;
   }
 }

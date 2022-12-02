@@ -51,27 +51,26 @@ const Services = () => {
           <span>📠</span>
           <h4 className="service-title">Fax Your Printouts</h4>
           <p className="service-info">
-            Go to your favorite text editor, select all the code you wrote in
-            the last 30 days ago and copy paste it into Microsoft Word. Then
-            press Print. Easy as that.
+            Take your code print outs and fax them to our troll free number. Our
+            AI will recombine the pages in correct order and then robot
+            technology will deliver them to Elon for review.
           </p>
         </article>
         <article className="service">
           <span>✉️</span>
           <h4 className="service-title">Wait for the mailman</h4>
           <p className="service-info">
-            Go to your favorite text editor, select all the code you wrote in
-            the last 30 days ago and copy paste it into Microsoft Word. Then
-            press Print. Easy as that.
+            Get your code review print out back with Elon Musk's handwritten
+            notes and hand drawn emojis.
           </p>
         </article>
         <article className="service">
           <span>🚀</span>
           <h4 className="service-title">Send your code to space</h4>
           <p className="service-info">
-            Go to your favorite text editor, select all the code you wrote in
-            the last 30 days ago and copy paste it into Microsoft Word. Then
-            press Print. Easy as that.
+            All code reviews merged after a review by Elon Musk are
+            automatically re-printed and sent to space aboard a SpaceX rocket.
+            *Enterprise plan only.
           </p>
         </article>
       </div>
