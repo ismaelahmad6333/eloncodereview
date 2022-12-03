@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 const Hero = () => {
   return (
     <section className="container hero">
@@ -24,10 +25,22 @@ const Hero = () => {
         <strong>Elon Musk</strong> personally!
       </p>
       <div className="cta">
-        <button className="btn trial">get 6 months free</button>
-        <button className="btn video">
-          <span>▶️</span> Watch video
-        </button>
+        <a
+          href="https://thumbs.gfycat.com/WhiteBountifulAfricangroundhornbill-mobile.mp4"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="btn trial">get 6 months free</button>
+        </a>
+        <a
+          href="https://thumbs.gfycat.com/WhiteBountifulAfricangroundhornbill-mobile.mp4"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="btn video">
+            <span>▶️</span> Watch video
+          </button>
+        </a>
       </div>
     </section>
   )

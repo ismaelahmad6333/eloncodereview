@@ -159,6 +159,9 @@ nav ul {
   gap: 1.6rem;
   list-style: none;
 }
+nav a:visited {
+  color: #222;
+}
 /* Hero section */
 .hero {
   display: flex;

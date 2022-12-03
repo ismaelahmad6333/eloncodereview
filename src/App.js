@@ -7,10 +7,11 @@ import Testimonial from './components/testimonial/Testimonial'
 import Pricing from './components/pricing/Pricing'
 import Footer from './components/footer/Footer'
 import Faq from './components/Faq/Faq'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
-    <>
+    <Router>
       <Nav />
       <Hero />
       <Services />
@@ -19,7 +20,7 @@ function App() {
       <Pricing />
       <Faq />
       <Footer />
-    </>
+    </Router>
   )
 }
 
