@@ -18,6 +18,7 @@
   - [Pricing Section](#pricing-section)
   - [Faq and Footer Section](#faq-and-footer-section)
 - [Built With](#built-with)
+- [Credits](#credits)
 
 
 <!-- OVERVIEW -->
@@ -63,5 +64,10 @@
 
 
 
+### Credits
+
+<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
+
+- credits to @robZolkos for the design
 
 
