@@ -1,10 +1,10 @@
 
 <!-- Please update value in the {}  -->
 
-<h1 align="center">404 PAGE NOT FOUND</h1>
+<h1 align="center">Elon Code Review</h1>
 
 <div align="center">
-   Solution for a challenge from  <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY" target="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY" >Devchallenges.io</a>.
+   Live link : <a href="https://eloncodereview.netlify.app" target="https://eloncodereview.netlify.app" >eloncodereview</a>.
 </div>
 
 
